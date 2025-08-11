@@ -1,0 +1,113 @@
+
+ body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #edf5f3; /* soft light tone */
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  color: #333;
+  font-style: italic;
+  margin: 0 20px 0 0;
+}
+
+    .main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* or use space-around / space-evenly if you like */
+      background-color: #fefefe;
+      padding: 10px 20px;
+        border-bottom: 1px solid #ddd;
+        flex-wrap: wrap;
+    }
+
+
+    .main input[type="text"] {
+      height: 30px;
+      width: 400px;
+      padding: 5px;
+      font-size: 14px;
+    }
+
+    .main a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .main i {
+      font-size: 20px;
+      color: #333;
+      margin-left: 15px;
+    }
+
+.categories {
+  display: flex;
+  justify-content: center;   /* or space-around, space-between */
+  gap: 20px;                 /* spacing between links */
+  margin-top: 20px;
+}
+
+.categories a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;      /* centers the row */
+  gap: 30px;                    /* space between images */
+  padding: 20px;
+  flex-wrap: wrap;              /* allows wrap on small screens */
+}
+
+.image-gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);       /* zoom effect on hover */
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 400px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #d4af37; /* gold tone */
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #d4af37;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
